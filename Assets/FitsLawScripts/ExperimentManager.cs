@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
-
 public class ExperimentManager : MonoBehaviour
 {
     public TrialUIManager trialUIManager;
@@ -12,8 +10,7 @@ public class ExperimentManager : MonoBehaviour
     public RectTransform boardCanvas;        // Drag the Canvas RectTransform here
 
     [Header("Spawn Zone (normalized 0-1 of canvas height)")]
-    [Range(0f, 1f)] public float spawnZoneMinY = 0.05f;  // bottom 5%
-    [Range(0f, 1f)] public float spawnZoneMaxY = 0.45f;  // up to 45% (lower half)
+
 
     [Header("Controller Interaction Components")]
     public Behaviour[] controllerInteractionComponents;
@@ -63,37 +60,24 @@ private void PositionButton(TrialRow trial)
 {
     targetButton.gameObject.SetActive(true);
 
-    float size = trial.Diameter * 5f;
+    float size = Mathf.Clamp(trial.Diameter * 0.1f, 0.05f, 0.3f);
     targetButton.sizeDelta = new Vector2(size, size);
-
-    // Force button anchor to canvas center so anchoredPosition is predictable
-    targetButton.anchorMin = new Vector2(0.5f, 0.5f);
-    targetButton.anchorMax = new Vector2(0.5f, 0.5f);
-    targetButton.pivot = new Vector2(0.5f, 0.5f);
-
-    // Get canvas size in local units
-    Vector2 canvasSize = boardCanvas.rect.size;
-
+    
     float halfW = size * 0.5f;
     float halfH = size * 0.5f;
 
-    // Keep button fully inside canvas bounds
-    float minX = -canvasSize.x * 0.5f + halfW;
-    float maxX =  canvasSize.x * 0.5f - halfW;
+    float edgePadding = halfW * 0.5f;
 
-    // Spawn only in lower half of canvas
-    float minY = -canvasSize.y * 0.5f + halfH;
-    float maxY =  0f - halfH; // 0 = canvas center, so this is bottom half only
+    float minX = -0.5f + edgePadding;
+    float maxX =  0.5f - edgePadding;
 
-    // Safety check — if canvas too small for button, clamp
-    if (minX >= maxX) maxX = minX + 0.001f;
-    if (minY >= maxY) maxY = minY + 0.001f;
+    float minY = -0.5f + edgePadding;
+    float maxY =  0.5f - edgePadding;
 
     targetButton.anchoredPosition = new Vector2(
         Random.Range(minX, maxX),
         Random.Range(minY, maxY)
     );
-
 }
     public void OnTargetSelected()
     {
