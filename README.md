@@ -9,3 +9,5 @@ Research Paper: https://colostate-my.sharepoint.com/:w:/g/personal/tyler13_colos
 **CheckPoint-2**
 
 Demo Video: https://youtu.be/uFGZ7pakCtM
+
+Code Review 2: https://youtu.be/JCMm6S9xtYw
