@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ad1f6d9fd4d124a829b4dc9d380788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentCSVLogger
-  outputFileName: Fittslaw_Outputfile.csv
+  outputFileName: Board_Fittslaw_Outputfile.csv
 --- !u!1 &2671851272259750333
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,24 +191,10 @@ MonoBehaviour:
   csvLogger: {fileID: 9206713181754788279}
   targetButton: {fileID: 0}
   boardCanvas: {fileID: 0}
-  spawnZoneMinY: 0.05
-  spawnZoneMaxY: 0.45
   controllerInteractionComponents:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   handInteractionComponents:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &7234257676403241038
@@ -237,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 7234257676403241038}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.363, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -283,7 +269,7 @@ Transform:
   m_GameObject: {fileID: 9160615806393289992}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.05529, y: 0, z: 14.54599}
+  m_LocalPosition: {x: -0.98381, y: 6.195, z: 3.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

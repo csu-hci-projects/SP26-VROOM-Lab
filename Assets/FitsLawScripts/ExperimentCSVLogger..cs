@@ -8,7 +8,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 public class ExperimentCSVLogger : MonoBehaviour
 {
-    public string outputFileName = "Fittslaw_Outputfile.csv";
+    [SerializeField] private string outputFileName;
 
     private string filePath;
     private StringBuilder csvBuilder = new StringBuilder();

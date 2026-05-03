@@ -97,6 +97,24 @@ private void PositionButton(TrialRow trial)
         StartCurrentTrial();
     }
 
+    public void OnMiss()
+    {
+        TrialRow currentTrial = trialUIManager.GetCurrentTrial();
+        if (currentTrial == null) return;
+
+        float movementTime = Time.time - trialStartTime;
+        string trialEndTimestamp = csvLogger.GetCurrentTimestamp();
+
+        csvLogger.LogTrial(trialStartTimestamp, trialEndTimestamp,
+                           currentTrial, movementTime, false);
+
+        Debug.Log("Selected Trial " + currentTrial.TrialNumber +
+                  " | MT = " + movementTime.ToString("F3") + " s");
+
+        trialUIManager.MoveToNextTrial();
+        StartCurrentTrial();
+    }
+
     // ── Helpers ───────────────────────────────────────────────────────────────
 
     private void ApplyInteractionCondition(string condition)
