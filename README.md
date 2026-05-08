@@ -21,8 +21,10 @@ Spread Sheet: https://docs.google.com/spreadsheets/d/1BRCNL-BCWctRcujvzWr4K8olx1
 FINAL VIDEOS:
 - Project overview video - (https://youtu.be/EOexjEQi-0Y) [] 
   (https://drive.google.com/file/d/1IeA9yEZZLDftDyHNKzMe8txD_xnDFQLE/view?usp=drive_link) - []
+  
 - Project Code video - (https://youtu.be/U4zirAoFo7s) [] 
   (https://drive.google.com/file/d/1p0zuEEvkqRWlQMVW_G_vlnY-NXTGGo9i/view?usp=drive_link) - []
+  
 - Project Presentation video (https://youtu.be/f6NRgadLv8o) - [] 
   (https://drive.google.com/file/d/17kGZytX4kIf2BQCgYVECC1ZNvUYoUOnY/view?usp=drive_link) - []
 
