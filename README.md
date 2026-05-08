@@ -35,9 +35,17 @@ Google Drive Link to Unity Projct File
 
 - (https://drive.google.com/file/d/1Md9Qcw0g3vrtxil2s-1RexQguE7-mgKh/view?usp=drive_link) []
 
-LaTeX file in repo, link: []
-Overleaf link: - []
-PDF-LiteratureSurvey Link: - []
+LaTeX file in repo, link:
+
+-() []
+
+Overleaf link:
+
+- () []
+
+PDF-LiteratureSurvey Link:
+
+- (https://drive.google.com/file/d/1QD1hcK6IL4VnEdBiJm8VRK9skqxU7Y3B/view?usp=sharing) []
 
 Work Allocation:
 
