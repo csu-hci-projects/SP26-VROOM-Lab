@@ -1,20 +1,4 @@
-**CheckPoint-1**
-
-Demo Video: https://www.youtube.com/watch?v=WxnIbm2XHS4&feature=youtu.be
-
-Code Review: https://www.youtube.com/watch?v=uHm61NObeyI
-
-Research Paper: https://colostate-my.sharepoint.com/:w:/g/personal/tyler13_colostate_edu/IQBoqXNWye0ZT4W3K0a9kcWjARyt3j0MQlosgCwq85ncYjs?e=0ZSwCT
-
-**CheckPoint-2**
-
-Demo Video: https://youtu.be/uFGZ7pakCtM
-
-Code Review 2: https://youtu.be/JCMm6S9xtYw
-
-**Vrooms Final Project**
-
-FINAL VIDEOS:
+**FINAL VIDEOS**:
 - Project overview video - (https://youtu.be/EOexjEQi-0Y) []
   
   (https://drive.google.com/file/d/1IeA9yEZZLDftDyHNKzMe8txD_xnDFQLE/view?usp=drive_link) - []
