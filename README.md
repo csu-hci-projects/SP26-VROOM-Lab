@@ -25,7 +25,7 @@ PDF-LiteratureSurvey Link:
 
 **Work Allocation**
 
-Techincal Demo/ Videos: Tyler Harvey = 75%, Scott Hendren = 15% , and Josh Luka = 10% 
+Techincal Demo/ Videos: Tyler Harvey = 78%, Scott Hendren = 15% , and Josh Luka = 8% 
 
 Research Paper: Tyler Harvey = 25%, Scott Hendren = 65% , and Josh Luka = 10% 
 
