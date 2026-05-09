@@ -43,7 +43,7 @@ PDF-LiteratureSurvey Link:
 
 - (https://drive.google.com/file/d/1QD1hcK6IL4VnEdBiJm8VRK9skqxU7Y3B/view?usp=sharing) []
 
-Work Allocation:
+**Work Allocation**
 
 Techincal Demo/ Videos: Tyler Harvey = 80%, Scott Hendren = 15% , and Josh Luka = 5% 
 
