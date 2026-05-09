@@ -17,7 +17,7 @@ Google Drive Link to Unity Projct File
 
 LaTeX file in repo, link:
 
--() []
+- () []
 
 Overleaf link:
 
