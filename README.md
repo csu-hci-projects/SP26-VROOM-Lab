@@ -36,3 +36,13 @@ OTHER NOTES:
 - HardWare: Meta Quest 2 + Controllers
   
 - Computer module: Windows
+  
+- Instruction
+  1. Click the start button in menu scene
+  2. Read Pannels for additional information
+  3. stand on the senter platform in the middle of the tables.
+  4. For each Board switch between each hand per button.
+  5. Start with Hand Point & Pintch for the first 16, then Controllers for the rest.
+  6. Repeat for all boards
+  7. CSV files get saved after all trails complete for each board
+  8. After you are done, walk to the doors and click on the door knobs to leave Vroom.
