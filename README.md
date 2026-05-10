@@ -17,7 +17,7 @@ Google Drive Link to Unity Projct File
 
 LaTeX file in repo, link:
 
-- () []
+- (https://drive.google.com/file/d/1J39c3gHGZyeUM-Lv6E0MViL7jhqrOUJA/view?usp=sharing) []
 
 PDF-LiteratureSurvey Link:
 
