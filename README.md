@@ -30,3 +30,9 @@ Techincal Demo/ Videos: Tyler Harvey = 75%, Scott Hendren = 15% , and Josh Luka 
 Research Paper: Tyler Harvey = 25%, Scott Hendren = 65% , and Josh Luka = 10% 
 
 OTHER NOTES:
+
+- Unity Version: 6000.3.5f2
+
+- HardWare: Meta Quest 2 + Controllers
+  
+- Computer module: Windows
