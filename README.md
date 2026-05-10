@@ -13,7 +13,7 @@
 
 GitHub Link
 
--(https://github.com/csu-hci-projects/SP26-VROOM-Lab) []
+- (https://github.com/csu-hci-projects/SP26-VROOM-Lab) []
 
 Google Drive Link to Unity Projct File 
 
